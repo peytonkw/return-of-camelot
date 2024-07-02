@@ -1,0 +1,459 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2036",
+            "summary": "Eight years ago Donald Trump suffered a stroke in the middle of a rally, leaving his running mate J.D Vance to pick up the pieces, losing to Kamala Harris. Four years later Vance returned and defeated President Kamala Harris.\nAfter his innauguration Vance got right to work on eroding the little progress Harris had managed to achieve, appointing right-wing Judges to SCOTUS, repealing the Respect for Marriage Act, ramping up border security, reducing involvement in NATO, and waging a trade war against China, among other things. His agenda was put on hold following a blue wave in 2034, and has since governed largely through executive orders.<br><br>Now America prepares for yet another contentious election season, the one thing in the way of Vance fulfilling the vision of his mentor is Senator Jack Schlossberg, grandson of John F. Kennedy.\n",
+            "image_url": "https://i.imgur.com/1FP3ZjC.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/1kFlkSf.jpeg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2036"
+    }
+]
+
+campaignTrail_temp.credits = "@iloveminigolf on twitter, with a very special thanks to @ferald_gord"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Jack",
+            "last_name": "Schlossberg",
+            "election": 20,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 1,
+            "description": "Amongst a crowded field of Democratic contenders it's New York Senator and Kennedy family scion Jack Schlossberg that emerged victorious. Schlossberg starts the race neck and neck with Vance, he has the party base behind him, but progressives are still bitter after what they perceive as 12 years of ineffective Democratic rule, and he must work to gain their trust, or abandon them entirely in favor of old Republicans fed up with the state of their party.\n<br><br>Schlossberg made his first foray into electoral politics in 2028, when he ran to succeed the retiring Chuck Schumer. In what is widely regarded as one of the biggest electoral upsets of the last decade Schlossberg defeated Alexandria Ocasio-Cortez, widely considered the face of the progressive movement in America, in the Democratic Primary. before going onto win the general election with 61%, outrunning Democratic Presidential nominee Kamala Harris by six points.\n",
+            "color_hex": "#0869c4",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/8AUIk6r.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Marie",
+            "last_name": "Glusenkamp-Perez",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Washington",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/hxL7PDM.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Marie Glusenkamp-Perez is the freshman Senator from Washington. She first came to prominence in 2020, when she won a shock upset in a House election she was given just a 2% chance of winning. In her ten years in the House she proved herself a frequent electoral overperformer. She was first elected to the Senate in 2030, and she's up for re-election this year, though her replacement is almost certain to be a Democrat, so little need to worry about that.<br><br>Perez enjoys outsized popularity among progressives given her moderate views, and she could have appeal to Democrats all across the coalition. Her views on gun rights could cause controversy among some Democrats though, as mass shooting continue to rise. And, as mentioned earlier, Washington is in no danger of going Republican this year.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "J.D.",
+            "last_name": "Vance",
+            "election": 20,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<b>HERE FOR CONTEXT\n</b><br>J.D. Vance has gone from a self described never-Trumper to the torchbearer of the Trump legacy, a former Senator from Ohio and among the horsemen of the Midwest's right-wing slide over the last twenty years. Following his election to Senate in 2022 Vance was a major supporter of Trumps efforts to overturn the results of the 2020 and 2024 elections, and was nominated as his running mate for his 2028 campaign. Trump led the polling for much of that election season, but on September 9th the former President suffered a stroke, dying a few weeks later. This left Vance to pick up the pieces, losing to Vice President Kamala Harris by slim margins.<br><br>In 2032 Vance made his return, easily winning the Republican, primary holding the old Trumpian coalition together through elbow grease, threats, and veneration of the old leader. Waging a holy war in the name of Trump, his own support based more on his wielding of the Trump legacy than any of his own merits, Vance blindsided an unpopular Harris, ending 12 years of Democratic rule.",
+            "color_hex": "#c40808",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/u60385P.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Chase",
+            "last_name": "Oliver",
+            "election": 20,
+            "party": "Libertarian",
+            "state": "Michigan",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffd500",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 303,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "Carter",
+            "election": 20,
+            "party": "DSA",
+            "state": "Virginia",
+            "priority": 1,
+            "description": "<b>HERE FOR CONTEXT</b><br>Anyone paying attention sees this election for what it is: a disgraceful sham. America's nearing its final conclusion as an imperialist power - a veiled dictatorship with no real opposition, just the eternal controlled opposition of the party duopoly. Lee Carter has had enough.<br><br>Fifteen years ago the internet saw him as just some punchline, well nobody's laughing now. Four years ago the DSA, well, the <i>real</i> DSA dealt a blow to the establishment, when Nina Turner gave enough progressives a real choice for President to see Kamala Harris get punished for her wicked ways. But it turns out the Democrats haven't learned their lesson, having nominated  rich elitist neoliberal Jack Schlossberg. Well it's time for Carter to teach them a lesson. It's time for him to teach them all a lesson.",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/E1BvInA.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 305,
+        "fields": {
+            "first_name": "Colin",
+            "last_name": "Allred",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/gHhdZIa.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Colin Allred is the second term Senator from Texas, first elected in 2024 by a margin of just 87 votes against Ted Cruz, becoming the first Democrat to win a Senate race in Texas since Lloyd Bentsen in 1988. He was re-elected in 2030 in spite of a strong midterm for the GOP. That extra Senate seat for Democrats would turn out to be crucial in halting much of Vance's agenda in the last four years.<br><br>Allred's got proven electoral success in a state that'll be crucial in 2036, that being said, he is up for re-election this year, and leaving a swing seat like that up for grabs could end up coming back to bite you. Allred is also unlikely to please the DSA given his stances on Israel and his immigration, which are somewhat more conservative than the rest of the party, though that may help you in some states.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 306,
+        "fields": {
+            "first_name": "Raphael",
+            "last_name": "Warnock",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Georgia",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/wbUIxzu.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Reverend Raphael Warnock is the incumbent senior Senator from Georgia, having served alongside Jon Ossoff since 2021. After being elected to the Senate in 2020 in a special election, Warnock won re-election in 2022 against former pro football player Herschel Walker, Warnock won re-election again in 2028, outrunning Kamala Harris by three points, Warnock had his most successul re-election campaign in the past 2034 midterms, pulling in 54% of the vote.<br><br>The state of Georgia could prove to be crucial this year, alongside it's nearby neighbors South Carolina, North Carolina, and Mississippi, which are supposed to be close this year. Warnock has been pretty liberal, and there are worse choices if you're hoping to appeal to the progressive wing of the party. He should help you a great deal with the black vote.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 307,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Fetterman",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/P3WABZ3.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "John Fetterman is the incumbent Democratic Senator from Pennsylvania, having served since 2023. Fetterman entered the Senate being considered a progressive, but after that took a sharp turn to the right, taking hardline stances in favor of Israel and against China, he's also been rather hawkish on securing the border with Mexico. These stances have generally drawn the ire of the left flank of the party, though it hasn't seem to have hurt him in the slightest in his home state of Pennsylvania, as he has put up strong re-election bids in 2028 and 2034 even as the state trends Republican.<br><br>A Democratic ticket featuring two white men in the year 2036 is unthinkable to many, and as mentioned, Fetterman would do you no favors with the DSA wing of the party, which has grown to hate him, but, as someone who has hung tough in a state that has voted Republican more and more over the years, he could be your best chance to win back the Midwest, his blue-collar outsider populism, in addition to helping you with winning back white working class voters, could also help counter attacks against you as an out of touch elite.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 308,
+        "fields": {
+            "first_name": "Summer",
+            "last_name": "Lee",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/rfGNhCk.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Summer Lee is the U.S. Representative from Pennsylvania's 12th district, having represented it since 2023. Lee is a former member of DSA, having left in 2021, but she remains in good graces among the progressives of the party, and is likely the best option for a running mate who both appeals to the left flank and who is viable with the rest of the party and independents.<br><br>Lee is likely your best path forward to killing a DSA third party bid that holds the chance to siphon off significant progressive support for your campaign. She could also help you in her home state of Pennsylvania and amongst black voters.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50007,
+        "fields": {
+            "first_name": "Jim",
+            "last_name": "Banks",
+            "election": 20,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50008,
+        "fields": {
+            "first_name": "Who",
+            "last_name": "Cares",
+            "election": 20,
+            "party": "Libertarian",
+            "state": "Alabama",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50009,
+        "fields": {
+            "first_name": "Some",
+            "last_name": "Communist",
+            "election": 20,
+            "party": "DSA",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150496,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 164832,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 305
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 130162,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 306
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 137184,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 307
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 179695,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 50007
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109815,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 50008
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 132847,
+        "fields": {
+            "candidate": 303,
+            "running_mate": 50009
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 110094,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 308
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#000d70",
+    "windowColor": "#0b8bda",
+    "containerColor": "#000d70",
+    "innerWindowColor": "#0b8bda",
+    "bannerImageUrl": "https://i.imgur.com/TBjOdrP.jpeg",
+    "backgroundImageUrl": "https://i.imgur.com/cX9oRSw.png",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "THE RETURN OF CAMELOT"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE RETURN OF CAMELOT</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000d70";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#0b8bda";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000d70";
+
+document.getElementById("header").src = "https://i.imgur.com/TBjOdrP.jpeg";
+
+document.body.background = "https://i.imgur.com/cX9oRSw.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#0b8bda!important;}</style>";
+
+//#endcode
